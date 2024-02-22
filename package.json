@@ -11,8 +11,8 @@
     "lint:eslint:fix": "eslint . --fix",
     "lint:config": "prettier -c '**/*.@(json|yaml|toml)'",
     "lint:config:fix": "prettier -w '**/*.@(json|yaml|toml)'",
-    "format": "pnpm run lint:eslint && pnpm run lint:config",
-    "format:fix": "pnpm run lint:eslint:fix && pnpm run lint:config:fix"
+    "format": "yarn lint:eslint && yarn lint:config",
+    "format:fix": "yarn lint:eslint:fix && yarn lint:config:fix"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",

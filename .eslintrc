@@ -17,5 +17,15 @@
     ],
     "react/require-default-props": [0],
     "no-console": ["error", { "allow": ["error"] }]
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["#", "./src"]
+        ],
+        "extensions": [".js", ".jsx",".ts", ".tsx"]
+      }
+    }
   }
 }

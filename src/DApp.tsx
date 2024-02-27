@@ -6,7 +6,9 @@ function DApp() {
   return (
     <>
       <Header />
-      <Box as="main">dApp template - main</Box>
+      <Box as="main" textAlign="center" p={6}>
+        Content
+      </Box>
     </>
   )
 }
